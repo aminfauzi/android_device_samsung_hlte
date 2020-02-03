@@ -108,8 +108,6 @@ void gsm_properties(char const *rild_lib_variant)
     property_set("telephony.lteOnGsmDevice", "1");
 }
 
-#define ISMATCH(a, b) (!strncmp((a), (b), PROP_VALUE_MAX))
-
 void vendor_load_properties() {
 
     std::string bootloader = GetProperty("ro.bootloader", "");
