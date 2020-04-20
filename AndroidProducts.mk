@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hlte.mk
+    $(LOCAL_DIR)/superior_hlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hlte-user \
-    lineage_hlte-userdebug \
-    lineage_hlte-eng
+    superior_hlte-user \
+    superior_hlte-userdebug \
+    superior_hlte-eng
