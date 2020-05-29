@@ -123,7 +123,7 @@ void vendor_load_properties() {
        for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "fingerprint", "samsung/hltexx/hlte:5.0/LRX21V/N9005XXSGBRI2:user/release-keys");
             set_ro_product_prop(source, "device", "hlte");
-            set_ro_product_prop(source, "model", "SM-9005");
+            set_ro_product_prop(source, "model", "SM-N9005");
         }
         property_override("ro.build.description", "hltexx-user 5.0 LRX21V N9005XXSGBRI2 release-keys");
         gsm_properties("gsm");
@@ -132,7 +132,7 @@ void vendor_load_properties() {
        for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "fingerprint", "samsung/hltespr/hltespr:5.0/LRX21V/N900PVPSEPL1:user/release-keys");
             set_ro_product_prop(source, "device", "hltespr");
-            set_ro_product_prop(source, "model", "SM-900P");
+            set_ro_product_prop(source, "model", "SM-N900P");
         }
         property_override("ro.build.description", "hltespr-user 5.0 LRX21V N900PVPSEPL1 release-keys");
         cdma_properties("Sprint", "310120", "8", "1", "spr");
