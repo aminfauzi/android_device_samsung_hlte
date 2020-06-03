@@ -21,6 +21,6 @@ $(call inherit-product, device/samsung/hlte/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_hltexx
 PRODUCT_DEVICE := hltexx
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := hlte
+PRODUCT_BRAND := Samsung
+PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := Samsung Galaxy Note 3
